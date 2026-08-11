@@ -1,6 +1,23 @@
 # QuoteForge Mobile
 
-QuoteForge is a local-first contractor estimating app built for iPhone with Expo Go.
+QuoteForge is a local-first contractor estimating app built with Expo + React Native + TypeScript and tested on a physical iPhone with Expo Go.
+
+## Screenshots
+
+### Home
+![Home](screenshots/home.jpeg)
+
+### Customers
+![Customers](screenshots/customers.jpeg)
+
+### Jobs
+![Jobs](screenshots/jobs.jpeg)
+
+### Estimate Builder
+![Estimate Builder](screenshots/estimate-builder.jpeg)
+
+### Quote Detail
+![Quote Detail](screenshots/quote-detail.jpeg)
 
 ## Stack
 
@@ -27,12 +44,12 @@ npx expo start --clear --host tunnel
 ## Current MVP Scope
 
 - Home overview with local counts, recent quote activity, recent job queue, first-use empty state, and demo data action.
-- Customer workflow with list, search, add, detail, edit, validation, local persistence, and protected delete.
-- Job workflow with queue, status filters, add, detail, edit, status updates, validation, local persistence, and protected delete.
-- Estimate builder with job selection, line items, labor/material/equipment/other item types, per-line markup, estimate markup, discounts, tax, adjustments, notes, terms, save, duplicate, protected delete, and quote generation.
+- Customer and job management with searchable lists, add/detail/edit screens, validation, local persistence, and protected delete.
+- Job workflow with queue, status filters, status updates, validation, local persistence, and protected delete.
+- Estimate builder with job selection, line items, reusable templates, labor/material/equipment/other item types, per-line markup, estimate markup, discount, tax, adjustments, notes, terms, save, duplicate, protected delete, and quote generation.
 - Reusable labor and material templates with add, edit, duplicate, delete, and copy-to-estimate behavior.
-- Quote snapshots with quote numbers, immutable customer/job/pricing/business snapshots, version history, status tracking, preview, PDF/share export, text fallback, typed local approval, rejection, and approval reset.
-- Settings for business defaults, tax, markup, quote prefix/numbering, terms, reduced-motion preference, demo data, export, import, and clear local data.
+- Quote snapshots with quote numbers, immutable customer/job/pricing/business snapshots, quote versions, status tracking, preview, PDF/share export, text fallback, typed local approval, rejection, and approval reset.
+- Settings for business defaults, tax, markup, quote prefix/numbering, terms, reduced-motion preference, demo data, JSON backup/import, and clear local data.
 - Versioned local snapshot persistence with migration from the original Task 1 snapshot shape.
 
 ## Local Data
